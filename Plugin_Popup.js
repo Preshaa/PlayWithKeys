@@ -6,7 +6,7 @@ jQuery.fn.popup= function() {
     $(".Popup").Close();
   });
   this.show();
-  $("button.initiate").prop('disabled',true);
+  $("button#start").prop('disabled',true);
 };
 
 jQuery.fn.Close=function(){

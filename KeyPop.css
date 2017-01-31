@@ -42,10 +42,3 @@ button#start{
 	border: 0px;
 }
 
-button#submit{
-	position: absolute;
-	bottom: 5%;
-	left: 170px;
-	background-color: red;
-	border: 0px;
-}
