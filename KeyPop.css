@@ -1,0 +1,29 @@
+
+	div.keypop {
+      position:absolute;
+      width:30px;
+      height:30px;
+      background-color:pink;
+      display: block;
+	}
+	textarea{
+		position: absolute;
+		bottom: 20px;
+	}
+	span#text{
+		position: absolute;
+			left: 20px;
+	}
+span#result{
+position: absolute;
+		right: 20px;
+	}
+	button#start{
+		position: absolute;
+		bottom:40px;
+	}
+	button#submit{
+		position: absolute;
+		bottom: 20px;
+		left: 150px;
+	}
