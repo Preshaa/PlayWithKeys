@@ -1,0 +1,66 @@
+body{
+	background-image: url("../images/keys.jpg");
+}
+div#area{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+	background-color: gray; 
+	border: 5px solid black;
+	opacity: 0.7;
+}
+
+div.keypop {
+  position:absolute;
+  width:50px;
+  height:50px;
+  border: 2px solid black;
+  border-radius: 7px;
+  text-align: center;
+  background-color:#2F2F2F;
+  display: block;
+}
+
+p#key {
+  text-align: center;
+  margin: auto;	
+  font-size: 30px;
+  color: white;
+}
+
+
+#inputtext{
+  position: absolute;
+  bottom: 5%;
+  padding: 15px;
+  opacity: 0.8;
+	border: 2px solid white;
+	background-color: gray;
+	border-radius: 10px;
+	left: 25%;
+	width: 50%;
+  height: 50px;
+  font-size: 50px;
+}
+
+span#timer{
+	position: absolute;
+	right: 10px;
+  font-size: 250%;
+  color: white;
+}
+
+
+div#count {
+	position: absolute;
+	content: "";
+  text-align: center;
+  top: 40%;
+  left: 20%;
+  width: 60%;
+  font-size: 100px;
+  color: red;
+}
+
