@@ -1,6 +1,7 @@
 $(document).ready(function(){ 
 	$("#pop").hide();
-	var count=4;                                              //countdown block
+	$(".Popup").hide();
+  var count=4;                                              //countdown block
   var countdown = setInterval(function(){
 		count--;
 		$("div#count").text("");
@@ -19,18 +20,20 @@ $(document).ready(function(){
 function Timeout(text){                                        //after timeout
  	setTimeout(function() {
  		$("#pop").hide();
- 		$(".Popup").text("");
+ 		$(".Popup p").text("");
+ 		$("#inputtext").blur();
  		console.log(text);
     console.log($("#inputtext").val()+"-----------------");
     if (text === $("#inputtext").val()){
-  	  $(".Popup").append("Success");
+  	  $(".Popup p").text("Success");
+  	  $(".Popup p").css("font-size","150%");
 		  $(".Popup").popup();
+		  $("#retryButton").hide();
 		  $("#inputtext").val("");
 	  }
 	  else{
 		 	text="";
-		  $(".Popup").append("Failed! Try Again");
-		  $(".Popup").append("<button id='retryButton'  style='position: absolute;margin:5px;background-color:black;color: white;width: 22%;height: 70%;font-size: 90%;border-radius: 10px; border:1px;cursor= pointer'>Retry</button>");
+		  $(".Popup p").text("Failed! Try Again");
 		  $("#retryButton").click( function() {
 		  $(".Popup").hide();
       location.reload();
@@ -57,8 +60,8 @@ function Start(){                                                // game start
 		}		
 		var interval = setInterval(function(){     
 		  counter--;
-		  var t = Math.round(Math.random() * 90);
-		  var l = Math.round(Math.random() * 90);                            //random position from top and left
+		  var t = Math.round(Math.random() * 85);
+		  var l = Math.round(Math.random() * 85);                            //random position from top and left
 		  var possible = "abcdefghijklmnopqrstuvwxyz";
 		  var c = possible.charAt(Math.floor(Math.random() * possible.length));     //random selection of alphabet from possible characters
 		  console.log(t + " " + l + " " + c); 
