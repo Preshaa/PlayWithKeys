@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/keys.jpg");
+  background-image: url("../images/keys.jpg");
 }
 
 div#area {
@@ -9,9 +9,9 @@ div#area {
   width: 70%;
   right: 15%;
   height: 70%;
-	background-color: gray; 
-	border:  1px solid black;
-	opacity: 0.7;
+  background-color: gray; 
+  border:  1px solid black;
+  opacity: 0.7;
 }
 
 div.keypop {
@@ -27,7 +27,7 @@ div.keypop {
 
 p#key {
   text-align: center;
-  margin: 10%;	
+  margin: 10%;  
   font-size: 200%;
   color: white;
 }
@@ -102,8 +102,8 @@ p#key {
 }
 
 #count {
-	position: absolute;
-	content: "";
+  position: absolute;
+  content: "";
   text-align: center;
   top: 40%;
   left: 20%;
@@ -139,7 +139,7 @@ p#key {
     width: 80%;  
   }
 
-   #inputtext {
+  #inputtext {
     font-size: 150%;
     height: 3%;
   }

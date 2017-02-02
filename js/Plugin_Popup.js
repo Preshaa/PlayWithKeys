@@ -1,15 +1,19 @@
-jQuery.fn.popup= function() {
-
+"use strict";
+/**
+ * To display popup.
+ */
+jQuery.fn.popup = function() {
   $(".close").click( function() {
     $(".Popup").Close();
   });
-  $(".Popup").show();
-  
+  $(".Popup").show();  
 };
 
-jQuery.fn.Close=function(){
+/**
+ * To hide popup.
+ */
+jQuery.fn.Close = function() {
   this.hide();
   $(".Popup").text("");
-
 };
 
