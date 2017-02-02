@@ -1,7 +1,8 @@
-body{
+body {
 	background-image: url("../images/keys.jpg");
 }
-div#area{
+
+div#area {
   position: absolute;
   top: 10%;
   left: 15%;
@@ -61,6 +62,7 @@ p#key {
 #result {
   content: "";
 }
+
 #retryButton {
   display:block;
   position: absolute;
@@ -76,7 +78,7 @@ p#key {
   border:1px;cursor: pointer;
 }
 
-#inputtext{
+#inputtext {
   position: absolute;
   bottom: 5%;
   padding: 3%;
@@ -91,6 +93,7 @@ p#key {
   font-size: 200%;
   outline: none;
 }
+
 @media only screen and (max-width: 707px) {
     .Popup {
       font-size: 170%;
@@ -110,44 +113,39 @@ p#key {
 }
 
 @media screen and (max-width: 650px) {
-    .Popup {
-      font-size: 160%;
-      width: 70%;
-      left: 10%;
-      right: 10%;
-    }
+  .Popup {
+    font-size: 160%;
+    width: 70%;
+    left: 10%;
+    right: 10%;
+  }
 
-    #retryButton {
-      font-size: 80%;
-      margin-left:25%;
-      margin-top:2%;
-      margin-bottom:2%;
-      margin-right:25%;
-      width:50%;
-    }
-    .close {
-      font-size: 100%;
+  #retryButton {
+    font-size: 80%;
+    margin-left:25%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-right:25%;
+    width:50%;
+  }
 
-    }
+  .close {
+    font-size: 100%;
+  }
 
-    #count {
-      font-size: 400%;
-      left: 10%;
-      width: 80%;  
-    }
-    #inputtext {
-      font-size: 150%;
-      height: 3%;
+  #count {
+    font-size: 400%;
+    left: 10%;
+    width: 80%;  
+  }
 
-    }
-
-
+   #inputtext {
+    font-size: 150%;
+    height: 3%;
+  }
 }
 
-
-
-
-#inputtext::active{
+#inputtext::active {
   position: absolute;
   bottom: 5%;
   padding: 5%;
@@ -161,7 +159,7 @@ p#key {
   font-size: 200%;
 }
 
-span#timer{
+span#timer {
   position: absolute;
   right: 10px;
   font-size: 250%;

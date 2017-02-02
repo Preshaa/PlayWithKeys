@@ -11,10 +11,8 @@ $(document).ready(function(){
 			clearInterval(countdown);
 		}
 		else
-		  $("div#count").append(count);
-    
-	},1000);
-  
+		  $("div#count").append(count);    
+	},1000);  
 });    
 
 function Timeout(text){                                        //after timeout
@@ -69,8 +67,7 @@ function Start(){                                                // game start
 			$("#key").text(c);
 			$("#pop").show();
 			text += c;
-			console.log(text);
-				
+			console.log(text);				
 			if (counter <10) {
 				counter="0"+counter;
 			}			
